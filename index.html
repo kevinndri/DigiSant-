@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digi santé</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>
+    AOS.init();
+</script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">DigiSanté</h1>
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container text-white">
+            <h2 class="">Votre santé, notre priorité</h2>
+            <p class="hero-subtitle">Trouvez les meilleurs professionnels de santé en quelques clics.</p>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de nous</h2>
+            <p class="section-text">Nous connectons des millions de patients avec des médecins partout dans le monde.</p>
+        </div>
+    </section>
+    
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nos services</h2>
+            <div class="notification-bubble">Cliquez ici !</div>
+            <div class="service-box">
+                <div class="service">
+                    <h3>Pour les patients</h3>
+                    <p>Réservez des rendez-vous en ligne facilement.</p>
+                </div>
+                <div class="service">
+                    <h3>Pour les médecins</h3>
+                    <p>Gérez votre emploi du temps efficacement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Articles récents</h2>
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <img src="ima2.jpeg" alt="Article 1">
+                    <h3>Les 5 conseils pour une vie saine</h3>
+                    <p>Découvrez les meilleures pratiques pour améliorer votre santé au quotidien.</p>
+                    <a href="#" class="read-more">Lire la suite</a>
+                </article>
+                <article class="blog-post">
+                    <img src="ima3.jpg" alt="Article 2">
+                    <h3>Les bienfaits de la méditation</h3>
+                    <p>Comment la méditation peut transformer votre bien-être mental.</p>
+                    <a href="#" class="read-more">Lire la suite</a>
+                </article>
+                <article class="blog-post">
+                    <img src="ima4.avif" alt="Article 3">
+                    <h3>Alimentation et immunité</h3>
+                    <p>Quels aliments privilégier pour renforcer vos défenses naturelles.</p>
+                    <a href="#" class="read-more">Lire la suite</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Questions Fréquentes</h2>
+            <div class="faq-item">
+                <h3>Comment puis-je prendre rendez-vous avec un médecin ?</h3>
+                <p>Vous pouvez facilement réserver un rendez-vous via notre plateforme en ligne en sélectionnant un médecin et une date disponible.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Est-ce que vos services sont gratuits ?</h3>
+                <p>Notre plateforme propose des services gratuits pour les patients. Les médecins paient une commission minime par consultation.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Quels types de médecins sont disponibles ?</h3>
+                <p>Nous proposons un large éventail de spécialités, allant des généralistes aux cardiologues, en passant par les pédiatres.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Nos Plans</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Plan Gratuit</h3>
+                    <p>Pour les utilisateurs occasionnels</p>
+                    <h4>0€</h4>
+                    <ul>
+                        <li>Accès à 5 médecins</li>
+                        <li>Support basique</li>
+                    </ul>
+                    <button>Souscrire</button>
+                </div>
+                <div class="pricing-card popular">
+                    <h3>Plan Standard</h3>
+                    <p>Pour les utilisateurs réguliers</p>
+                    <h4>29€/mois</h4>
+                    <ul>
+                        <li>Accès à 50 médecins</li>
+                        <li>Support prioritaire</li>
+                        <li>Consultation vidéo</li>
+                    </ul>
+                    <button>Souscrire</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Plan Premium</h3>
+                    <p>Pour les professionnels</p>
+                    <h4>79€/mois</h4>
+                    <ul>
+                        <li>Accès illimité</li>
+                        <li>Support 24/7</li>
+                        <li>Statistiques avancées</li>
+                    </ul>
+                    <button>Souscrire</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 MonSite. Tous droits réservés.</p>
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
